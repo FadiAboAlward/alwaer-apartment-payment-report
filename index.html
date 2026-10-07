@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>النسخة النهائية المدققة — مطابقة دفعات المشروع 19 مع القيمة التاريخية بالدولار</title>
+<style>
+:root {
+ --bg:#f5f7fb; --card:#fff; --text:#1f2937; --muted:#667085; --line:#e5e7eb;
+ --blue:#175cd3; --green:#067647; --green-bg:#ecfdf3; --amber:#b54708; --amber-bg:#fffaeb; --red:#b42318; --red-bg:#fef3f2;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text); font-family:Tahoma,Arial,sans-serif; line-height:1.7; }
+.wrap { max-width:1500px; margin:28px auto; padding:0 18px 48px; }
+h1,h2,p,div,th,td { text-align:right; }
+.hero { background:linear-gradient(135deg,#fff,#f8fbff); border:1px solid var(--line); border-radius:18px; padding:24px; box-shadow:0 5px 18px rgba(16,24,40,.05); }
+.hero h1 { margin:0 0 8px; font-size:27px; }
+.hero p { margin:5px 0; color:var(--muted); }
+.grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin:16px 0; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+.card .label { color:var(--muted); font-size:13px; }
+.card .value { margin-top:4px; font-size:21px; font-weight:700; direction:ltr; text-align:right; }
+.ok { background:var(--green-bg); border-color:#abefc6; }
+.warn { background:var(--amber-bg); border-color:#fedf89; }
+.section { background:var(--card); border:1px solid var(--line); border-radius:16px; margin-top:16px; padding:20px; }
+.section h2 { margin:0 0 12px; font-size:20px; }
+.callout { border-radius:12px; padding:14px 16px; margin:10px 0; }
+.callout.ok { background:var(--green-bg); color:#05603a; }
+.callout.warn { background:var(--amber-bg); color:#7a2e0e; }
+.callout.err { background:var(--red-bg); color:var(--red); }
+.table-wrap { overflow:auto; border:1px solid var(--line); border-radius:12px; }
+table { width:100%; border-collapse:collapse; min-width:1420px; background:#fff; }
+th { background:#f8fafc; font-size:13px; color:#475467; position:sticky; top:0; z-index:1; }
+th,td { padding:10px 11px; border-bottom:1px solid var(--line); vertical-align:top; }
+tr:last-child td { border-bottom:0; }
+.num { direction:ltr; text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+.strong { font-weight:700; }
+.fxrate { font-weight:700; }
+.usd { font-weight:800; color:#05603a; }
+a { color:var(--blue); text-decoration:none; font-weight:700; }
+a:hover { text-decoration:underline; }
+.badge { display:inline-block; padding:3px 8px; border-radius:999px; background:var(--green-bg); color:var(--green); font-size:12px; font-weight:700; }
+.badge.mid { background:var(--amber-bg); color:var(--amber); }
+.eq { direction:ltr; display:block; text-align:center; font-family:Consolas,monospace; font-size:16px; background:#101828; color:#fff; padding:12px; border-radius:10px; margin:12px 0; }
+.small { font-size:13px; color:var(--muted); }
+.footer { color:var(--muted); font-size:12px; margin-top:14px; }
+.audit { min-width:900px; }
+@media (max-width:900px) { .grid { grid-template-columns:1fr 1fr; } }
+@media print {
+ body { background:#fff; }
+ .wrap { max-width:none; margin:0; padding:0; }
+ .hero,.section,.card { box-shadow:none; }
+ a { color:#000; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<section class="hero">
+  <h1>النسخة النهائية المدققة — دفعات شقة المشروع 19 / المقسم 620 / العضوية 2088</h1>
+  <p>تمت إعادة مراجعة روابط أسعار الصرف سطرًا بسطر، واستُبعدت الروابط التي لا تثبت السعر المطلوب بوضوح.</p>
+  <p>القيمة الدولارية هي تقدير تاريخي يعتمد على <strong>سعر مبيع الدولار في السوق الموازية</strong> المنشور في نفس يوم الدفعة، لأن هذا هو السعر الأقرب لما كان سيدفعه صاحب الليرات لشراء الدولار.</p>
+</section>
+
+<div class="grid">
+  <div class="card"><div class="label">الرصيد المرحّل قبل 2019</div><div class="value">500,400 ل.س</div></div>
+  <div class="card"><div class="label">الرصيد المثبت بعد آخر دفعة</div><div class="value">58,178,400 ل.س</div></div>
+  <div class="card"><div class="label">المطلوب حتى 01/10/2026</div><div class="value">73,000,000 ل.س</div></div>
+  <div class="card warn"><div class="label">المتبقي حسب كشف أمين</div><div class="value">14,821,600 ل.س</div></div>
+  <div class="card ok"><div class="label">القيمة التاريخية للدفعات المؤرخة</div><div class="value">$8,613.16</div></div>
+</div>
+
+<section class="section">
+  <h2>النتيجة بعد التدقيق</h2>
+  <div class="callout ok">
+    الرصيد المحاسبي ما زال <strong>58,178,400 ل.س</strong> وهو مطابق لكشف أمين. بعد تصحيح مصادر الصرف أصبحت القيمة التاريخية التقريبية للدفعات المؤرخة <strong>$8,613.16</strong>.
+  </div>
+  <div class="callout warn">
+    هذه ليست قيمة استثمارية نهائية للشقة، بل تحويل تاريخي لكل دفعة بسعر السوق يوم دفعها. الرصيد الافتتاحي البالغ 500,400 ل.س غير داخل في إجمالي الدولار لأنه لا يحمل تاريخًا يمكن ربطه بسعر صرف موثوق.
+  </div>
+</section>
+
+<section class="section">
+  <h2>جدول الدفعات + سعر الصرف + القيمة بالدولار</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>التاريخ / الفترة</th>
+          <th>قيمة الدفعة ل.س</th>
+          <th>الرصيد بعدها</th>
+          <th>سعر مبيع الدولار</th>
+          <th>تاريخ السعر</th>
+          <th>دليل سعر الصرف</th>
+          <th>قيمة الدفعة بالدولار</th>
+          <th>ملاحظة الدفعة</th>
+          <th>صورة المستند</th>
+          <th>الثقة</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td>رصيد مرحّل قبل 2019</td>
+        <td class="num">500,400</td>
+        <td class="num strong">500,400</td>
+        <td class="num fxrate">—</td>
+        <td>—</td>
+        <td>—</td>
+        <td class="num usd">—</td>
+        <td>رصيد افتتاحي وليس دفعة مؤرخة؛ لا أحوّله إلى دولار لعدم وجود تاريخ موثوق.</td>
+        <td><a href="https://drive.google.com/file/d/1bsM3VUAGF6YfXiNPMhNIgY0h04fu-Nx_/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>02/06/2019</td>
+        <td class="num">200,000</td>
+        <td class="num strong">700,400</td>
+        <td class="num fxrate">578 ل.س/$</td>
+        <td>02/06/2019</td>
+        <td>عكس السير — السوق السوداء: 576 شراء / 578 مبيع<br><a href="https://www.aksalser.com/news/2019/06/02/%D8%B9%D9%88%D8%AF%D8%A9-%D9%84%D9%84%D8%A7%D8%B1%D8%AA%D9%81%D8%A7%D8%B9-%D8%B3%D8%B9%D8%B1-%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%88-%D8%A7%D9%84%D9%8A%D9%88%D8%B1-11/" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$346.02</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1bsM3VUAGF6YfXiNPMhNIgY0h04fu-Nx_/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>06/07/2019</td>
+        <td class="num">25,000</td>
+        <td class="num strong">725,400</td>
+        <td class="num fxrate">594 ل.س/$</td>
+        <td>06/07/2019</td>
+        <td>تركيا عاجل — دمشق: 592 شراء / 594 مبيع<br><a href="https://turkey-breaking.com/News/2019/07/06/%D8%AA%D8%AD%D8%B3%D9%86-%D8%B7%D9%81%D9%8A%D9%81-%D9%84%D9%80-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%B9%D9%85/" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$42.09</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1bsM3VUAGF6YfXiNPMhNIgY0h04fu-Nx_/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>16/04/2020</td>
+        <td class="num">3,283,000</td>
+        <td class="num strong">4,008,400</td>
+        <td class="num fxrate">1,280 ل.س/$</td>
+        <td>16/04/2020</td>
+        <td>زمان الوصل — إغلاق دمشق: 1265–1270 شراء / 1275–1280 مبيع<br><a href="https://www.zamanalwsl.net/news/article/122997" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$2,564.84</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/15ARk5FiIaF30WG-rehgEjzhrMjJe7CCf/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>25/02/2021</td>
+        <td class="num">250,000</td>
+        <td class="num strong">4,258,400</td>
+        <td class="num fxrate">3,580 ل.س/$</td>
+        <td>25/02/2021</td>
+        <td>شبكة شام — دمشق: 3,550 شراء / 3,580 مبيع<br><a href="https://shaam.org/reports/economic-reports/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B4%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-25-02-2021" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$69.83</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1HCmf8HlFIaekR2fmNTQ1-BUs47kl2y9p/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>08/04/2021</td>
+        <td class="num">250,000</td>
+        <td class="num strong">4,508,400</td>
+        <td class="num fxrate">3,450 ل.س/$</td>
+        <td>08/04/2021</td>
+        <td>الليرة اليوم — إغلاق دمشق: 3,350 شراء / 3,450 مبيع<br><a href="https://sp-today.com/news/8255" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$72.46</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1HCmf8HlFIaekR2fmNTQ1-BUs47kl2y9p/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>14/06/2021</td>
+        <td class="num">800,000</td>
+        <td class="num strong">5,308,400</td>
+        <td class="num fxrate">3,225 ل.س/$</td>
+        <td>14/06/2021</td>
+        <td>العين الإخبارية — السوق الموازية في دمشق: 3,155 شراء / 3,225 مبيع<br><a href="https://al-ain.com/article/price-dollar-in-syria-today-monday-june-14-2021" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$248.06</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1HCmf8HlFIaekR2fmNTQ1-BUs47kl2y9p/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>15/08/2021</td>
+        <td class="num">400,000</td>
+        <td class="num strong">5,708,400</td>
+        <td class="num fxrate">3,330 ل.س/$</td>
+        <td>15/08/2021</td>
+        <td>تلفزيون سوريا — سوق دمشق: 3,280 شراء / 3,330 مبيع<br><a href="https://www.syria.tv/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-15-08-2021" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$120.12</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1HCmf8HlFIaekR2fmNTQ1-BUs47kl2y9p/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>11/12/2021</td>
+        <td class="num">800,000</td>
+        <td class="num strong">6,508,400</td>
+        <td class="num fxrate">3,550 ل.س/$</td>
+        <td>11/12/2021</td>
+        <td>تلفزيون سوريا — سوق دمشق: 3,510 شراء / 3,550 مبيع<br><a href="https://www.syria.tv/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%B3%D8%A8%D8%AA-11-12-2021" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$225.35</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/1HCmf8HlFIaekR2fmNTQ1-BUs47kl2y9p/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>11/01/2022</td>
+        <td class="num">2,000,000</td>
+        <td class="num strong">8,508,400</td>
+        <td class="num fxrate">3,615 ل.س/$</td>
+        <td>11/01/2022</td>
+        <td>العين الإخبارية — السوق غير الرسمية: 3,580 شراء / 3,615 مبيع<br><a href="https://al-ain.com/article/dollar-syria-january-11-2022" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$553.25</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/14yBhPiu1jCumLRhzdIEbEKJIDbF_cuYH/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>26/04/2022</td>
+        <td class="num">1,500,000</td>
+        <td class="num strong">10,008,400</td>
+        <td class="num fxrate">3,880 ل.س/$</td>
+        <td>26/04/2022</td>
+        <td>CashFlow — إغلاق دمشق: 3,845 شراء / 3,880 مبيع<br><a href="https://cashflowtr.net/post/16265/" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$386.60</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/14yBhPiu1jCumLRhzdIEbEKJIDbF_cuYH/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>03/07/2022</td>
+        <td class="num">1,500,000</td>
+        <td class="num strong">11,508,400</td>
+        <td class="num fxrate">4,020 ل.س/$</td>
+        <td>03/07/2022</td>
+        <td>تلفزيون سوريا — سوق دمشق: 3,985 شراء / 4,020 مبيع<br><a href="https://www.syria.tv/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-03-07-2022" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$373.13</td>
+        <td>دفعة مثبتة في دفتر الجمعية.</td>
+        <td><a href="https://drive.google.com/file/d/14yBhPiu1jCumLRhzdIEbEKJIDbF_cuYH/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>15/02/2023</td>
+        <td class="num">2,100,000</td>
+        <td class="num strong">13,608,400</td>
+        <td class="num fxrate">7,150 ل.س/$</td>
+        <td>15/02/2023</td>
+        <td>تلفزيون سوريا — سوق دمشق: 7,000 شراء / 7,150 مبيع<br><a href="https://www.syria.tv/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-15-02-2023" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$293.71</td>
+        <td>قيمة الدفعة من صورة دفتر 2023؛ التاريخ مستخدم من السجل المرجعي السابق ويُعامل بثقة متوسطة.</td>
+        <td><a href="https://drive.google.com/file/d/1a-oXOJQSZo1xQThRC3edmoAvpQy2lbxb/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge mid">متوسطة</span></td>
+      </tr>
+    
+      <tr>
+        <td>10/01/2024</td>
+        <td class="num">3,000,000</td>
+        <td class="num strong">16,608,400</td>
+        <td class="num fxrate">14,550 ل.س/$</td>
+        <td>10/01/2024</td>
+        <td>تلفزيون سوريا — سوق دمشق: 14,350 شراء / 14,550 مبيع<br><a href="https://www.syria.tv/%D8%B3%D8%B9%D8%B1-%D8%A7%D9%84%D9%84%D9%8A%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D8%B1%D9%83%D9%8A%D8%A9-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%81%D9%8A-%D8%B3%D9%88%D8%B1%D9%8A%D8%A7-%D9%8A%D9%88%D9%85-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D8%A7%D8%A1-10-01-2024" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$206.19</td>
+        <td>قيمة الدفعة من صورة دفتر 2024؛ التاريخ مستخدم من السجل المرجعي السابق.</td>
+        <td><a href="https://drive.google.com/file/d/1sMJrgnKYNDCQvAnO0YzybBlB6Giv2ryy/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>خلال 2025</td>
+        <td class="num">0</td>
+        <td class="num strong">16,608,400</td>
+        <td class="num fxrate">—</td>
+        <td>—</td>
+        <td>لا توجد دفعة</td>
+        <td class="num usd">$0.00</td>
+        <td>لا تظهر دفعات جديدة.</td>
+        <td><a href="https://drive.google.com/file/d/1D3A-dS47VrNSX92A53jBaIYMzETFraGZ/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>28/04/2026</td>
+        <td class="num">28,400,000</td>
+        <td class="num strong">45,008,400</td>
+        <td class="num fxrate">13,400 ل.س قديمة/$</td>
+        <td>28/04/2026</td>
+        <td>عكس السير — السوق السوداء: 13,325 شراء / 13,400 مبيع؛ المصدر يوضح أن التحويل للجديدة بالقسمة على 100<br><a href="https://www.aksalser.com/news/2026/04/28/%D8%B3%D8%B9%D8%B1-%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%88-%D8%A7%D9%84%D9%8A%D9%88%D8%B1%D9%88-%D9%88-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%85%D9%82%D8%A7%D8%A8%D9%84-2053/" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$2,119.40</td>
+        <td>إيصال البنك العقاري: 284,000 ل.س جديدة = 28,400,000 ل.س بالوحدة القديمة المستخدمة في سجلنا.</td>
+        <td><a href="https://drive.google.com/file/d/1ST3tvCmWJ6zw9pnfjjO47zMs3GRr_ZUw/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>26/07/2026</td>
+        <td class="num">6,600,000</td>
+        <td class="num strong">51,608,400</td>
+        <td class="num fxrate">13,250 ل.س قديمة/$</td>
+        <td>26/07/2026</td>
+        <td>شبكة شام — السوق الموازية في دمشق: 13,175 شراء / 13,250 مبيع<br><a href="https://shaam.org/business/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B4%D8%A7%D9%85-%D8%A7%D9%84%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%D9%8A-%D8%A3%D9%88-%D8%A7%D9%84%D8%A3%D8%AD%D8%AF-26-%D8%AA%D9%85%D9%88%D8%B2-2026" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$498.11</td>
+        <td>إيصال قبض من الجمعية — عضوية 2088.</td>
+        <td><a href="https://drive.google.com/file/d/1EUBQr5FwJuGjJ4afOMtefBC_8ayOug8V/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      <tr>
+        <td>21/08/2026</td>
+        <td class="num">6,570,000</td>
+        <td class="num strong">58,178,400</td>
+        <td class="num fxrate">13,300 ل.س قديمة/$</td>
+        <td>21/08/2026</td>
+        <td>عكس السير — 132 شراء / 133 مبيع بالليرة الجديدة؛ المصدر ينص على الضرب ×100 للقديمة<br><a href="https://www.aksalser.com/news/2026/08/21/%D8%B3%D8%B9%D8%B1-%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%88-%D8%A7%D9%84%D9%8A%D9%88%D8%B1%D9%88-%D9%88-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D9%85%D9%82%D8%A7%D8%A8%D9%84-2164/" target="_blank" rel="noopener">فتح دليل سعر الصرف</a></td>
+        <td class="num usd">$493.98</td>
+        <td>إيصال قبض من الجمعية — عضوية 2088. المصدر يعرض الليرة الجديدة؛ 133 جديدة = 13,300 قديمة.</td>
+        <td><a href="https://drive.google.com/file/d/1Hbx-zLzU_VQLhoU7VIQHufi20sdMATdd/view" target="_blank" rel="noopener">فتح صورة المستند</a></td>
+        <td><span class="badge ">عالية</span></td>
+      </tr>
+    
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2>المطابقة مع كشف أمين</h2>
+  <div class="table-wrap">
+    <table class="audit">
+      <thead><tr><th>البند</th><th>القيمة</th><th>المصدر</th><th>النتيجة</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>الرصيد المحسوب من مستندات الدفعات</td>
+          <td class="num strong">58,178,400 ل.س</td>
+          <td>دفتر الجمعية + إيصال البنك + وصولات 2026</td>
+          <td><span class="badge">معتمد</span></td>
+        </tr>
+        <tr>
+          <td>الرصيد في كشف أمين</td>
+          <td class="num strong">58,178,400 ل.س</td>
+          <td><a href="https://drive.google.com/file/d/17LfDqhrjd3m-BET2iRtu3lK7pNp2XRZH/view" target="_blank" rel="noopener">فتح كشف أمين</a></td>
+          <td><span class="badge">مطابق</span></td>
+        </tr>
+        <tr>
+          <td>الفرق</td>
+          <td class="num strong">0 ل.س</td>
+          <td>مطابقة حسابية</td>
+          <td><span class="badge">لا يوجد فرق</span></td>
+        </tr>
+        <tr>
+          <td>المبلغ المتبقي للوصول إلى المطلوب</td>
+          <td class="num strong">14,821,600 ل.س</td>
+          <td>73,000,000 − 58,178,400</td>
+          <td><span class="badge mid">مستحق</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2>التصحيحات عن نسخة الدولار السابقة</h2>
+  <div class="callout err">
+    أهم تصحيح: رابط 02/06/2019 السابق لم يكن دليلاً مناسبًا لسعر الصرف. استُبدل بمصدر مؤرخ بنفس اليوم يذكر صراحة أن مبيع الدولار في السوق السوداء كان <strong>578 ل.س</strong>.
+  </div>
+  <div class="table-wrap">
+    <table class="audit">
+      <thead><tr><th>التاريخ</th><th>السعر السابق</th><th>السعر المدقق</th><th>سبب التعديل</th></tr></thead>
+      <tbody>
+        <tr><td>02/06/2019</td><td class="num">505</td><td class="num strong">578</td><td>المصدر السابق لم يكن مرجع صرف مناسبًا؛ المصدر الجديد يذكر السوق السوداء صراحة.</td></tr>
+        <tr><td>06/07/2019</td><td class="num">594</td><td class="num strong">594</td><td>تم العثور على مصدر بنفس اليوم يؤكد دمشق 592 شراء / 594 مبيع.</td></tr>
+        <tr><td>25/02/2021</td><td class="num">3,600</td><td class="num strong">3,580</td><td>اعتمدت نشرة دمشق المباشرة من شبكة شام بدل رقم عام.</td></tr>
+        <tr><td>14/06/2021</td><td class="num">3,150</td><td class="num strong">3,225</td><td>السابق كان سعر شراء؛ الصحيح للتحويل هو سعر المبيع.</td></tr>
+        <tr><td>11/01/2022</td><td class="num">3,590</td><td class="num strong">3,615</td><td>السابق كان قريبًا من الشراء؛ تم اعتماد المبيع المنشور.</td></tr>
+        <tr><td>26/04/2022</td><td class="num">3,850</td><td class="num strong">3,880</td><td>اعتمدت قيمة إغلاق دمشق المنشورة في المصدر.</td></tr>
+        <tr><td>28/04/2026</td><td class="num">13,270</td><td class="num strong">13,400</td><td>المصدر المؤرخ بنفس اليوم يثبت 13,400 مبيع بالليرة القديمة.</td></tr>
+        <tr><td>26/07/2026</td><td class="num">13,275</td><td class="num strong">13,250</td><td>شبكة شام تذكر دمشق 13,175 شراء / 13,250 مبيع.</td></tr>
+        <tr><td>21/08/2026</td><td class="num">13,270</td><td class="num strong">13,300</td><td>المصدر يذكر 133 مبيع بالليرة الجديدة = 13,300 بالقديمة.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <h2>ملاحظات منهجية</h2>
+  <p>أسعار السوق الموازية تتغير خلال اليوم؛ لذلك التقرير يستخدم لقطة سعر منشورة ومؤرخة في نفس اليوم، لا يدعي أنها السعر الوحيد لذلك اليوم.</p>
+  <p>عندما ذكر المصدر سعري الشراء والمبيع استخدمت <strong>المبيع</strong>، لأنه الأقرب إلى تكلفة شراء الدولار بواسطة الليرة السورية.</p>
+  <p>في 2026 تظهر بعض المصادر الليرة الجديدة وبعضها القديمة. وحّدت الحسابات إلى وحدة الليرة القديمة المستخدمة في سجل الجمعية، على أساس 1 ليرة جديدة = 100 ليرة قديمة حيث ينص المصدر على ذلك.</p>
+  <p>دفعة 2023 تحمل ثقة متوسطة في <strong>تاريخها</strong> لأن التاريخ مأخوذ من التفريغ المرجعي السابق؛ لذلك يمكن إعادة تدقيق التاريخ من الصورة الأصلية إذا لزم تدقيق قانوني/محاسبي صارم.</p>
+</section>
+
+<section class="section">
+  <h2>الخلاصة</h2>
+  <p>بعد إعادة التدقيق الكامل، القيمة التاريخية التقريبية للدفعات المؤرخة هي <strong>$8,613.16</strong>. الرصيد بالليرة لم يتغير: <strong>58,178,400 ل.س</strong>، مطابق لكشف أمين، والمتبقي <strong>14,821,600 ل.س</strong>.</p>
+</section>
+
+<div class="footer">نسخة مدققة بتاريخ 07/10/2026 — روابط كل دفعة وروابط دليل سعر الصرف مضمّنة داخل الجدول.</div>
+
+</div>
+</body>
+</html>
